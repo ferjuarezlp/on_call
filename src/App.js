@@ -48,6 +48,6 @@ function App() {
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
-}
+
 
 export default App;
