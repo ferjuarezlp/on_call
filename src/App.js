@@ -5,7 +5,7 @@ import uuid from 'react-uuid'
 
 function App() {
   const [date, setDate] = useState(null);
-  //const [uniqueId, setUniqueId] = useState('');
+
   const [uniqueId] = useState(
     localStorage.getItem('uniqueId') || ''
   );
