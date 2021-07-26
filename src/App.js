@@ -12,13 +12,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem('uniqueId', uuid());
- 
-    /*async function getDate() {
-      const res = await fetch('/api/date');
-      const newDate = await res.text();
-      //setDate(newDate);
-    }
-    getDate();*/
+
   }, []);
 
   return (
